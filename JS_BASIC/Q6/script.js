@@ -6,6 +6,8 @@ btn.addEventListener('click', function(){
 
   if (text.value.length >= 10){
     result.innerHTML = '入力文字数が10文字を超えました';
+  } else {
+    result.innerHTML = text.value;
   }
   // console.log(text.value.length)
 })

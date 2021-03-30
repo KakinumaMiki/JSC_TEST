@@ -8,5 +8,5 @@ function time() {
 
   currentTime.innerHTML = hour + ':' + min + ':' + sec;
 }
-
+time();
 setInterval(time, 1000);
